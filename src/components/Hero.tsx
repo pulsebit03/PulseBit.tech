@@ -19,14 +19,14 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="flex-1 mt-8 md:mt-0 ml-8">
+      <div className="flex-1 mt-8 md:mt-0 ml-8 float-animation">
         <Image
           src="/projects/hero-image.jpeg"
           alt="Digital Transformation"
           width={400}
           height={200}
           // fill
-          className="object-contain scale-trigger delay-300 rounded-lg shadow-lg -rotate-5 float-animation"
+          className="object-contain scale-trigger delay-300 rounded-lg shadow-lg -rotate-5"
           priority
         />
       </div>
